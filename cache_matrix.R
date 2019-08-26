@@ -1,4 +1,4 @@
-##matrixCacheMatrix() creates a special ,atrix obj that can cache its inverse
+##matrixCacheMatrix() creates a special matrix obj that can cache its inverse
 makeCacheMatrix <- function(x=matrix()) {
 mat_inv <- NULL
 	set <- function(mat) {
